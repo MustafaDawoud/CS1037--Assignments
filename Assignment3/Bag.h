@@ -19,7 +19,7 @@ public:
 	bool isEmpty() const;
 	bool isFull() const;
 	unsigned int currentSize() const;   // returns # of Ts now in bag
-	unsigned int capacity() const;        // returns bag’s upper capacity
+	unsigned int capacity() const;        // returns bagâ€™s upper capacity
 
 private:
 	unsigned int m_size; // number of elements currently stored in the bag
