@@ -17,9 +17,9 @@ public:
 								// PRECONDITION: pos must be a valid position                                             
 	T retrieve(unsigned int pos) const; // returns value at location pos without modifying it; 
 										// PRECONDITION: pos must be a valid list position
-	int insert(T item); // insert T at appropriate pos’n in the list and return this position
+	int insert(T item); // insert T at appropriate posâ€™n in the list and return this position
 
-	int find(T key) const; // return pos’n of first occurrence of T, or -1 if T isn’t found
+	int find(T key) const; // return posâ€™n of first occurrence of T, or -1 if T isnâ€™t found
 	int binarySearch(T key) const; // same as "find", but uses binary search instead of linear search
 
 private:
